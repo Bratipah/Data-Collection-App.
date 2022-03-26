@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Data Collection App</string>
+    <string name="no_of_acres">No of Acres</string>
+
+    <string name="county1">Mombasa</string>
+    <string name="county2">Kwale</string>
+    <string name="county3">Kilifi</string>
+    <string name="county4">Tana River</string>
+    <string name="county5">Lamu</string>
+    <string name="county6">Taita-Taveta</string>
+    <string name="county7">Garissa</string>
+    <string name="county8">Wajir</string>
+    <string name="county9">Mandera</string>
+    <string name="county10">Marsabit</string>
+    <string name="county11">Isiolo</string>
+    <string name="next">Next</string>
+    <string name="gender">Gender</string>
+    <string name="back">Back</string>
+    <string name="submit">Submit</string>
+    <string name="subsidiary">Subsidiary</string>
+    <string name="name">Name</string>
+    <string name="name_text">Name:</string>
+    <string name="national_id_text">National Id:</string>
+    <string name="no_of_acres_text">No Of Acres</string>
+    <string name="id">id</string>
+</resources>
+
