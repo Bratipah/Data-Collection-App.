@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "479079143189",
+    "project_id": "data-collection-app-ea161",
+    "storage_bucket": "data-collection-app-ea161.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479079143189:android:1aebdc5be6c7489ffafb1c",
+        "android_client_info": {
+          "package_name": "com.example.datacollectionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479079143189-o9su9eq7b25e9l7g4o6gbfoifs6lu2ha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYRzgaZM1EA9tva6iZcYp0Ze9o1eRnWFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479079143189-o9su9eq7b25e9l7g4o6gbfoifs6lu2ha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
