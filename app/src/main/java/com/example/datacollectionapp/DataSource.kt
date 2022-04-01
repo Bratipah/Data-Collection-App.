@@ -21,3 +21,10 @@ class DataSource {
         )
     }
 }
+
+data class User(
+    val name: String,
+    val age: Int,
+    val nationalId: Long,
+    val phoneNumber: Long
+)
