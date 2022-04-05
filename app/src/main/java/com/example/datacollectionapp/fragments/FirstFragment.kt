@@ -25,11 +25,17 @@ class FirstFragment: Fragment(R.layout.first_fragment) {
         binding = FirstFragmentBinding.inflate(layoutInflater)
         var nextButton = binding.next
         nextButton.setOnClickListener {
-
 //            val name = binding.textInput.toString().toInt()
-
             val action = FirstFragmentDirections.actionFirstFragmentToSecondFragment()
             view?.findNavController()?.navigate(action)
+
+            var name = binding.textInput.toString()
+            var nationalId = binding.nationalIdTextInput.toString().toLong()
+            var mobileNumber = binding.mobileNoTextInput.toString().toLong()
+            var uai = binding.UAITextInput.toString()
+            var  noOfAcres = binding.noOfAcresTextInput.toString().toInt()
+
+            
         }
 
 
