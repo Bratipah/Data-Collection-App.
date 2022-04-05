@@ -15,4 +15,5 @@ class DataFragment : Fragment(R.layout.data_fragment){
     ): View? {
         return super.onCreateView(inflater, container, savedInstanceState)
     }
+
 }

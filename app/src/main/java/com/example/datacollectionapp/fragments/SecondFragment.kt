@@ -10,6 +10,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.datacollectionapp.R
 import com.example.datacollectionapp.TAG
 import com.example.datacollectionapp.databinding.SecondFragmentBinding
+import com.google.firebase.database.FirebaseDatabase
 
 class SecondFragment: Fragment(R.layout.second_fragment) {
     private lateinit var binding: SecondFragmentBinding
@@ -26,6 +27,23 @@ class SecondFragment: Fragment(R.layout.second_fragment) {
             findNavController().navigate(action)
         }
 
+//        binding.submitButton.setOnClickListener{
+//            val name = binding.name.text.toString()
+//            val nationalId = binding.nationalIdTextInput.text.toString()
+//            val mobileNo = binding.mobileNo.text.toString()
+//            val gender = binding.genderTextInput.text.toString()
+//            val uai = binding.uai.text.toString()
+//            val county = binding.  countyTextEditText.text.toString()
+//            val subsidiary = binding.subsidiaryTextInput.text.toString()
+//            val village = binding.villageTextInput.text.toString()
+//            val ward = binding.wardTextInput.text.toString()
+//            val crop = binding.cropTextInput.text.toString()
+//            val noOfAcres = binding.noOfAcres.text.toString()
+//
+//            var database = FirebaseDatabase.getInstance().getReference("Farmers")
+//
+//        }
+//
 //        binding.submitButton.setOnClickListener {
 //            val action = SecondFragmentDirections.actionSecondFragmentToDataFragment()
 //            findNavController().navigate(action)
