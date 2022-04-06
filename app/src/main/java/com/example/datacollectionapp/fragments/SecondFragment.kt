@@ -28,17 +28,14 @@ class SecondFragment: Fragment(R.layout.second_fragment) {
         }
 
         binding.submitButton.setOnClickListener{
-            val name = binding.name.text.toString()
-            val nationalId = binding.nationalIdTextInput.text.toString()
-            val mobileNo = binding.mobileNo.text.toString()
+
             val gender = binding.genderTextInput.toString()
-            val uai = binding.uai.text.toString()
             val county = binding.  countyTextEditText.toString()
-            val subsidiary = binding.subsidiaryTextInput.toString()
-            val village = binding.villageTextInput.toString()
             val ward = binding.wardTextInput.toString()
             val crop = binding.cropTextInput.toString()
-            val noOfAcres = binding.noOfAcres.text.toString()
+            val village = binding.villageTextInput.toString()
+            val subsidiary = binding.subsidiaryTextInput.toString()
+
 
             var database = FirebaseDatabase.getInstance().getReference("Farmers")
 

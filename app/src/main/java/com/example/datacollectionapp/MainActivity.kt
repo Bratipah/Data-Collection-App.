@@ -21,12 +21,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         Log.i(TAG, "Main Activity Launched")
-
-        val submitButton = findViewById<Button>(R.id.submit_button)
-//       binding.submitButton.setOnClickListener{
-        val county = binding.countyTextEditText.text.toString()
-        val subsidiary = binding.subsidiaryTextInput.text.toString()
-        val village = binding.villageTextInput.text.toString()
     }
 //
 //            startActivity(intent)
